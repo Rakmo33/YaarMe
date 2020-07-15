@@ -80,7 +80,7 @@ body{
 .search-icon{
     width: 1.5em;
     height: 1.5em;
-    background-image: url("Images/search-menu.png");
+    background-image: url("../SVG/search-solid.svg");
     background-size: 0.75em;
 }
 .nav-icons{
@@ -98,38 +98,43 @@ body{
     opacity: 1;
 }
 .home-icon{
-    background-image: url("Images/home-icon.png");
-    background-size: 1.2em;
+    background-image: url("../SVG/home-solid.svg");
     filter: invert(1);
+    background-size: 1.5em;
+    /* filter: invert(1); */
 }
 .user-icon{
-    background-image: url("Images/user.png");
+    background-image: url("../SVG/user-solid.svg");
     filter: invert(1);
-    background-size: 1.2em;
+    background-size: 1.1em;
 }
 .suit-icon{
-    background-image: url("Images/suit-icon.png");
-    background-size: 1.25em;
+    background-image: url("../SVG/briefcase-solid.svg");
+    filter: invert(1);
+    background-size: 1.4em;
 }
 .chat-icon{
-    background-image: url("Images/chat.png");
+    background-image: url("../SVG/comments-solid.svg");
+    filter: invert(1);
     background-size: 1.5em;
 }
 .notify-icon{
-    background-image: url("Images/notify.png");
-    background-size: 1.5em;
+    background-image: url("../SVG/lock-solid.svg");
+    filter: invert(1);
+    background-size: 1.1em;
 }
 .me-icon{
-    background-image: url("Images/user-icon.png");
-    background-size: 1.75em;
+    background-image: url("../SVG/user-circle-solid.svg");
+    filter: invert(1);
+    background-size: 1.3em;
 }
 .menu-icon{
-    background-image: url("Images/menu-ham.png");
+    background-image: url("../SVG/bars-solid.svg");
     background-size: 1.1em;
     filter: invert(1);
 }
 .add-icon{
-    background-image: url("Images/add-icon.png");
+    background-image: url("../SVG/plus-solid.svg");
     background-size: 1.25em;
 }
 .active{
@@ -150,7 +155,7 @@ body{
 .work{
     height: 1.5em;
     height: 1.5em;
-    background-image: url("Images/menu.png");
+    background-image: url("../SVG/th-solid.svg");
     filter: invert(1);
     background-size: 1.25em;
 }
@@ -203,7 +208,7 @@ body{
     background-size: 1.45em;
     margin-right: 0.35em;
     opacity: 0.75;
-    background-image: url("Images/qrcode.png");
+    background-image: url("../SVG/qrcode-solid.svg");
 }
 .mobile-nav-bar{
     display: none;
@@ -223,7 +228,7 @@ body{
 }
 .mobile-nav-bar .suit-icon,
 .mobile-nav-bar .notify-icon{
-    filter: invert(1);
+    filter: invert(0);
 }
 .container-wrap{
     padding: 1em;
@@ -267,8 +272,8 @@ body{
 .more-icon{
     width: 2em;
     height: 2em;
-    background-image: url("Images/more.png");
-    transform: rotate(90deg);
+    background-image: url("../SVG/ellipsis-h-solid.svg");
+    /* transform: rotate(90deg); */
     background-size: 1.5em;
     border-radius: 50%;
 }
@@ -327,7 +332,8 @@ body{
     margin-left: 0.25em;
 }
 .globe-icon{
-    background-image: url("Images/globe.png");
+    background-image: url("../SVG/globe-americas-solid.svg");
+    filter: invert(0.5);
 }
 .follow{
     padding: 0.5em 0.85em;
@@ -401,14 +407,14 @@ body{
     font-size: 0.7em;
 }
 .like-icon{
-    background-image: url("Images/like.png");
+    background-image: url("../SVG/facebook-like.svg");
     transform: scaleX(-1);
 }
 .info-icon{
-    background-image: url("Images/info.png");
+    background-image: url("../SVG/bulb.svg");
 }
 .love-icon{
-    background-image: url("Images/love.png");
+    background-image: url("../SVG/heart.svg");
     transform: scaleX(0.9);
 }   
 .votes{
@@ -439,17 +445,24 @@ body{
     margin-right: 0.5em;
 }
 .like-i{
-    background-image: url("Images/like-icon.png");
+    background-image: url("../SVG/thumbs-up-solid.svg");
+    filter: invert(0.5);
     transform: scaleX(-1);
 }
 .comment-icon{
-    background-image: url("Images/comment.png");
+    background-image: url("../SVG/comment-solid.svg");
+    filter: invert(0.5);
+
 }
 .share-icon{
-    background-image: url("Images/share.png");
+    background-image: url("../SVG/share-solid.svg");
+    filter: invert(0.5);
+
 }
 .send-icon{
-    background-image: url("Images/send.png");
+    background-image: url("../SVG/paper-plane-solid.svg");
+    filter: invert(0.5);
+
 }
 
 /* Sidebar styling */
@@ -723,6 +736,10 @@ background-color:gainsboro ;
     }
     .main-content{
         width: 100%;
+    }
+    .me-icon{
+    background-image: url("../SVG/bars-solid.svg");
+        
     }
     .main-navbar-wrap{
         display: none;
