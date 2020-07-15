@@ -119,7 +119,7 @@ body{
     background-size: 1.5em;
 }
 .notify-icon{
-    background-image: url("../SVG/lock-solid.svg");
+    background-image: url("../SVG/bell-solid.svg");
     filter: invert(1);
     background-size: 1.1em;
 }
