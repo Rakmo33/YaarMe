@@ -325,6 +325,7 @@ width: fit-content;
 .msg-text-center{
     margin: auto;
     width: fit-content;
+    width: -moz-fit-content;
 }
 
 .msg-text-left{
