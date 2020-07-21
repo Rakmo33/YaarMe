@@ -124,16 +124,16 @@ main ul li img{
 
 main .left li p{
     border-radius: 25px;
-    line-height: 30px;
+    line-height: 20px;
     margin: 4px 0;
     margin-right: 15px;
-    font-size: 17px;
+    font-size: 14px;
     border: 1px solid rgba(196, 191, 191, 0.808);
     width: fit-content;
     width: -moz-fit-content;
 
     padding: 7px 15px;
-    max-width: 250px;
+    max-width: 130px;
 }
 
 main .left li img{
@@ -148,17 +148,17 @@ main .left li img{
 
 main .right li p{
     border-radius: 25px;
-    line-height: 30px;
+    line-height: 20px;
     margin: 4px 0;
     margin-left: auto;
     margin-right: 15px;
-    font-size: 17px;
+    font-size: 14px;
     border: 1px solid rgba(191, 224, 233, 0.192);
     width: fit-content;
     width: -moz-fit-content;
 
     padding: 7px 15px;
-    max-width: 250px;
+    max-width: 130px;
     background-color: rgb(233, 240, 238);
 }
 
