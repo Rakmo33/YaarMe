@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instagram Chat | YaarMe</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body onload="scrollToBottom()">
+
+        <section>
+            <header>
+                <a href="#">
+                    <img class="lnk" src="SVG/arrow-left-solid.svg" alt="" title="Back">
+                </a>
+                <a href="#">
+                    <img class="lnk avatar" src="avatar.png" alt="" title="Visit Profile">
+                </a>
+                <a href="#" class="chat-title" title="Visit Profile">
+                    <p class="username">Omkar Dabir</p>
+                    <p class="last-seen"> rakmo33</p>
+                </a>
+                <a href="#">
+                    <img class="lnk2" src="SVG/video-camera.svg" title="Start a video call">
+                </a>
+                <a href="#">
+                    <img class="lnk2" src="SVG/info-outline.svg" alt="" title="Information">
+                </a>
+            </header>
+
+            <main>
+                <p class="day">
+                    26 Jun 8:08 am
+                </p>
+                <ul id="last">
+                    <li class="left">
+                        <img src="avatar.png" alt="">
+                        <ul>
+                            <li>
+                                <p>
+                                    Hello! Do you have some free time right now?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    I wanted to talk to you urgently...
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="right">
+                        <ul>
+                            <li>
+                                <p>
+                                    Heyyy... What happened?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Go ahead.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="left">
+                        <img src="avatar.png" alt="">
+                        <ul>
+                            <li>
+                                <p>
+                                    Today I woke up and realized that I have not completed the Mechanics assignment
+                                    which was supposed to be submitted yesterday!
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    I started solving the sums, but got stuck on this Question.
+                                    Can you help me with this?
+                                </p>
+                            </li>
+                            <li>
+                                <img class="sent-img" src="mech.jpg" alt="">
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <p class="day">
+                        Yesterday
+                    </p>
+
+                    <li class="left">
+                        <img src="avatar.png" alt="">
+                        <ul>
+                            <li>
+                                <p>
+                                    I asked for your help like a week ago...
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Why are you not replying back????
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Are you mad at me ? :(
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="right">
+                        <ul>
+                            <li>
+                                <p>
+                                    Heyy! I am really sorry... I totally forgot...
+                                </p>
+                            </li>
+                            <li>
+                                <img class="sent-img" src="mech.jpg" alt="">
+                            </li>
+                            <li>
+                                <p>
+                                    Here is the solution to the problem...
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hope it helps... :)
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <p class="seen">
+                    Seen
+                </p>
+            </main>
+
+            <footer>
+                <div class="input-bar">
+                    <a href="#">
+                        <img class="lnk3 camera" src="SVG/camera-solid.svg" alt="" title="Camera">
+                    </a>
+                    <input type="text" placeholder="Message...">
+                    <a href="#">
+                        <img class="lnk3 mic" src="SVG/microphone-outline.svg" alt="" title="Voice Message">
+                    </a>
+                    <a href="#">
+                        <img class="lnk3 img" src="SVG/image-regular.svg" alt="" title="Gallery">
+                    </a>
+                    <a href="#">
+                        <img class="lnk3 stk" src="SVG/sticky-note-regular.svg" alt="" title="Stickers">
+                    </a>
+                </div>
+            </footer>
+        </section>
+
+        <script>
+            function scrollToBottom() {
+                var last = document.querySelector("main");
+                last.scrollTop = last.scrollHeight;
+            }
+        </script>
+
+
+    </body>
+
+</html>
