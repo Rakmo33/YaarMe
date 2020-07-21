@@ -133,7 +133,7 @@ main .left li p{
     width: -moz-fit-content;
 
     padding: 7px 15px;
-    max-width: 130px;
+    max-width: 180px;
 }
 
 main .left li img{
@@ -158,7 +158,7 @@ main .right li p{
     width: -moz-fit-content;
 
     padding: 7px 15px;
-    max-width: 130px;
+    max-width: 180px;
     background-color: rgb(233, 240, 238);
 }
 
