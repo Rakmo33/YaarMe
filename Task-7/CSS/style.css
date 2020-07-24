@@ -54,6 +54,11 @@ body {
     border: 0;
 }
 
+html{
+    scroll-padding: 60px;
+    scroll-behavior: smooth;
+}
+
 .select_text {
     -webkit-touch-callout: text;
     /* iOS Safari */
@@ -1269,6 +1274,11 @@ body {
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
+    }
+
+    .pro3 .stats{
+        padding: 15px 0;
+        grid-row-gap: 10px;
     }
 }
 
