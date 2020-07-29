@@ -1,0 +1,1 @@
+Sidebar included in homeage template

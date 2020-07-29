@@ -1,0 +1,1 @@
+Whatsapp status for mobile view

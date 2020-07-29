@@ -1,0 +1,115 @@
+@media (max-width:1350px) {
+
+    nav section {
+        width: 80%;
+    }
+
+}
+
+@media (max-width:1150px) {
+
+    nav section {
+        width: 90%;
+    }
+
+}
+
+@media (max-width:1050px) {
+
+    nav section {
+        width: 95%;
+    }
+
+    .selected-nav {
+        border: none;
+    }
+
+}
+
+@media (max-width:650px) {
+    .post-subtext {
+        font-size: 12px;
+    }
+
+    .post .post-head {
+        grid-template-columns: 1fr 5fr 4fr;
+    }
+
+    .post-follow {
+        font-size: 13px;
+    }
+
+    .feed .post {
+        padding: 13px;
+    }
+
+    .post-btns {
+        font-size: 3.5vw;
+        padding: 1vw;
+    }
+
+    footer section {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:1050px) {
+
+    .nav-logo,
+    .nav-home,
+    .nav-net,
+    .nav-notif,
+    .nav-jobs,
+    .nav-me,
+    .premium-nav,
+    .nav-work {
+
+        display: none;
+    }
+
+    nav section {
+        width: 600px;
+        grid-template-columns: 0.1fr 8fr 1fr;
+    }
+
+    .hidden-ul,
+    .nav-me2 {
+        display: flex;
+    }
+
+    .nav-search input {
+        width: 100%;
+    }
+
+    .nav-search {
+        width: 90%;
+    }
+
+    footer {
+        display: flex;
+    }
+
+
+}
+
+@media(max-width:400px) {
+
+    nav section {
+        grid-template-columns: 0.1fr 4fr 1fr;
+    }
+
+    .nav-search {
+        margin: 0;
+    }
+
+    .nav-search input {
+        width: 85%;
+    }
+}
+
+@media (max-width:450px) {
+    footer ul a {
+        font-size: 3vw;
+    }
+}

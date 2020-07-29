@@ -1,0 +1,1 @@
+CHat window for desktop view

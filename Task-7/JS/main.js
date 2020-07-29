@@ -1,22 +1,4 @@
-var elem = document.getElementsByClassName("content");
-for (var i = 0; i < elem.length; i++) {
 
-
-    console.log(elem[i].innerHTML.length);
-    if (elem[i].innerHTML.length > 700) {
-        // elem[i].innerHTML  = "length";
-    }
-    // elem[i].onclick = function(){
-    //     if(this.innerHTML === "see less"){
-    //         this.previousSibling.style.display = "none";
-    //         this.innerHTML = "... see more";
-    //     }
-    //     else{
-    //         this.previousSibling.style.display = "inline";
-    //         this.innerHTML = "see less";
-    //     }
-    // }
-}
 
 var blurBackground = function () {
     document.querySelector(".sidebar").style.boxShadow = '0px 0px 20px 5000px #00000094';
