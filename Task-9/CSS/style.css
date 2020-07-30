@@ -351,10 +351,12 @@ body{
 
 .sugg-title .sugg-for{
     font-weight: 700;
+    cursor: pointer;
 }
 
 .sugg-title .see-all{
     color: #0073b1;
+    cursor: pointer;
 }
 
 
