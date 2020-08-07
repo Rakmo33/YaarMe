@@ -270,3 +270,17 @@ footer .lnk3{
 .input-bar form{
     display: contents;
 }
+
+.input-bar .send-btn{
+    color: rgb(37, 131, 255);
+    font-weight: 600;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    display: none;
+    margin: auto;
+    height: fit-content;
+    height: -moz-fit-content;
+    width: fit-content;
+}
