@@ -93,7 +93,7 @@ header .last-seen{
 
 
 main{
-    height: calc(100vh - 150px);
+    height: calc(100vh - 250px);
     margin: 0;
     overflow-y: scroll;
 
