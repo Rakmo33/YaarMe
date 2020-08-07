@@ -297,3 +297,10 @@ footer .lnk3{
     height: -moz-fit-content;
     width: fit-content;
 }
+
+@media (max-width:450px){
+    .seen{
+    margin-bottom: 90px;
+
+    }
+}
