@@ -94,9 +94,10 @@ header .last-seen{
 
 
 main{
-    height: calc(100vh - 150px);
+    height: calc(100vh - 158px);
     margin: 0;
     overflow-y: scroll;
+    border: 2px solid blue;
 
 }
 
