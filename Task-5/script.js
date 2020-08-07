@@ -29,7 +29,14 @@ inputForm.addEventListener("submit", function (e){
     e.preventDefault();
 
     var msg = inputBox.value;
-    inputBox.value = "";
+    inputBox.value = null;
+
+    document.getElementById("camera-btn").setAttribute("src","SVG/camera-solid.svg");
+    inputBar.style.gridTemplateColumns = "50px 1fr 45px 45px 45px";
+    inputButtons.forEach(function(btn){
+        btn.style.display = "flex";            
+    });
+    document.querySelector(".send-btn").style.display = "none";
 
     setTimeout(function(){
         document.querySelector(".right .right-ul").innerHTML += 
