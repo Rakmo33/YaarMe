@@ -99,6 +99,15 @@ main{
 
 }
 
+footer{
+    display: flex;
+    height: 90px;
+    position: sticky;
+    bottom: 0px;
+    background: white;
+}
+
+
 main::-webkit-scrollbar {
     display: none;
 }
@@ -211,13 +220,6 @@ main .day{
 
 
 
-footer{
-    display: flex;
-    height: 90px;
-    position: sticky;
-    bottom: 50px;
-    background: white;
-}
 
 footer .input-bar{
     width: 90%;
