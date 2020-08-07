@@ -93,7 +93,7 @@ header .last-seen{
 
 
 main{
-    height: calc(100vh - 250px);
+    height: calc(100vh - 200px);
     margin: 0;
     overflow-y: scroll;
 
@@ -215,7 +215,7 @@ footer{
     display: flex;
     height: 90px;
     position: sticky;
-    bottom: 0;
+    bottom: 50px;
     background: white;
 }
 
