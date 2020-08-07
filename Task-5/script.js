@@ -28,11 +28,17 @@ var sendBtn = document.querySelector(".send-btn");
 inputForm.addEventListener("submit", function (e){
     e.preventDefault();
 
-    document.querySelector(".right .right-ul").innerHTML += 
-    `<li><p>` + inputBox.value + `</p></li>`
-
-    var last = document.querySelector("main");
-    last.scrollTop = last.scrollHeight;
-
+    var msg = inputBox.value;
     inputBox.value = "";
+
+    setTimeout(function(){
+        document.querySelector(".right .right-ul").innerHTML += 
+        `<li><p>` + msg
+        var last = document.querySelector("main");
+        last.scrollTop = last.scrollHeight;
+    },300)
+
+  
+
+    
 });
