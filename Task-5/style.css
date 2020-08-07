@@ -24,7 +24,9 @@ header{
     grid-template-columns: 1.5fr 1fr 5fr 1fr 1fr  ;
     grid-column-gap: 10px;
     padding-right: 10px;
-    border-bottom: 2px solid rgba(207, 206, 206, 0.712);
+    box-shadow: 0 2px 7px -2px rgb(185, 184, 184);
+    background: #0073b1;
+    color: white;
 }
 
 header a{
@@ -37,22 +39,29 @@ header a{
 
 }
 
-header img{
+header a img{
     width: 20px;
+
 }
 
 header .lnk{
     margin: auto;
     width: 20px;
+    filter: invert(1);
+
+
 }
 
 header .lnk2{
     margin: auto;
     width: 25px;
+    filter: invert(1);
+
 }
 
 header .avatar{
     width: 40px;
+    filter: invert(0);
 }
 
 header .chat-title{
@@ -214,7 +223,7 @@ footer .input-bar{
     width: 90%;
     height: 50px;
     border-radius: 25px;
-    border: 1px solid grey;
+    border: 1px solid #0073b1;
     margin: 20px auto;
     display: grid;
     padding: 0 7px 0 0;
@@ -231,7 +240,7 @@ footer .input-bar a{
 }
 
 footer .input-bar .camera{
-    background-color: rgb(168, 74, 30);
+    background-color: #ff8c4e;
     border-radius: 50%;
     width: 18px;
     padding: 8px;
