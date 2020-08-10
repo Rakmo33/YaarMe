@@ -1168,6 +1168,10 @@ background-color:gainsboro ;
 
     }
 
+    .card-main.res {
+        grid-template-columns: 65px 1fr 70px;
+    }
+
 }
 @media only screen and (max-width:500px){
     .container{
