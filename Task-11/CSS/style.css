@@ -1162,6 +1162,12 @@ background-color:gainsboro ;
         grid-template-columns: 100px 1fr 70px;
     }
 
+    .res img{
+        height: 45px;
+        width: 45px;
+
+    }
+
 }
 @media only screen and (max-width:500px){
     .container{
