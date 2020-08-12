@@ -301,8 +301,7 @@ body{
 }
 
 .filters a:hover{
-    color: white;
-    background: #0073b1;
+    background: #d5d7d8;
 }
 
 .filters a.selected{
@@ -327,7 +326,7 @@ body{
     background: rgb(255, 255, 255);
     display: grid;
     padding: 10px 0;
-    grid-template-columns: 70px 1fr;
+    grid-template-columns: 50px 1fr;
 }
 
 .add-comment .input-box a{
@@ -335,22 +334,22 @@ body{
 }
 
 .add-comment .input-box .avatar{
-    width: 40px;
+    width: 35px;
     margin: auto;
 }
 
 .add-comment form{
     display: grid;
-    grid-template-columns: 1fr 30px 100px;
+    grid-template-columns: 1fr 10px 70px;
 }
 
 .add-comment form img{
-    width: 20px;
+    width: 15px;
     margin: auto;
 }
 
 .add-comment .input-box input{
-    font-size: 15px;
+    font-size: 14px;
     padding: 10px;
     margin: auto ;
     width: 100%;
@@ -361,7 +360,7 @@ body{
     background: transparent;
     outline: none;
     border: none;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 600;
     color: #0073b1;
     cursor: pointer;
