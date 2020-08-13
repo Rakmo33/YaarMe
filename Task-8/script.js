@@ -2,11 +2,14 @@ var sections = document.querySelectorAll("section")
 var sectionsLength = sections.length
 
 sections[0].style.transform = "rotate(0deg)"
+sections[0].style.zIndex = "5000"
 var nxt = 1;
 var int;
 var loadInt;
 var index = 1;
 var sectionNo = 0
+
+
 
 slideshow(sections[sectionNo]);
 
