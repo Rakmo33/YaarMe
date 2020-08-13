@@ -172,7 +172,7 @@ section .bottom{
 section .content-img{
     width: 100%;
     margin: auto;
-    transform: translateY(-50px);
+    /* transform: translateY(-50px); */
     display: flex;
     align-self: center;
     position: relative;
