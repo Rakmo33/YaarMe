@@ -1,1 +1,0 @@
-INstagram chat for mobile view
