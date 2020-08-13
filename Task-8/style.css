@@ -141,7 +141,7 @@ section .bottom{
     left: 0;
     right: 0;
     display: flex;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     text-align: center;
     justify-content: center;
     flex-direction: column;
