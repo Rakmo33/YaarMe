@@ -1,7 +1,7 @@
 var sections = document.querySelectorAll("section")
 var sectionsLength = sections.length
 
-sectons[0].style.transform = "rotate(0deg)"
+sections[0].style.transform = "rotate(0deg)"
 var nxt = 1;
 var int;
 var loadInt;
