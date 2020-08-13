@@ -1,22 +1,40 @@
 body,html{
-    overflow-y: hidden;
-    height: 100vh;
+    /* overflow-y: hidden; */
+    /* height: 100vh; */
 }
 
 body{
     margin: 0;
     padding: 0;
-    height: 100%;
+    /* height: 100%; */
     overflow-y: hidden;
     background: rgb(219, 217, 217);
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+
+
+main{
+    height: calc(100vh - 60px);
+    margin: 0;
+    overflow-y: scroll;
+
+}
+
+
+footer{
+    display: flex;
+    height: 90px;
+    position: sticky;
+    bottom: 0;
+    background: white;
 }
 
 section{
     max-width: 500px;
     height: 100vh;
     margin: auto;
-    background:rgb(189, 74, 74);
+    background:rgb(59, 39, 39);
 
 }
 
@@ -96,22 +114,6 @@ header .last-seen{
     font-size: 13px;
 }
 
-
-main{
-    height: calc(100vh - 60px);
-    margin: 0;
-    overflow-y: scroll;
-
-}
-
-
-footer{
-    display: flex;
-    height: 90px;
-    position: sticky;
-    bottom: 0;
-    background: white;
-}
 
 main::-webkit-scrollbar {
     display: none;
