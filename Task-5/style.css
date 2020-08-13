@@ -20,7 +20,7 @@ body{
 
 
 main{
-    height: calc(100vh - 60px);
+    height: calc(100vh - 150px);
     margin: 0;
     overflow-y: scroll;
 
