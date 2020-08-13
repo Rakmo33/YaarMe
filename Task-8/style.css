@@ -66,6 +66,13 @@ section{
 
 }
 
+.top-section{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
 section .top{
     display: grid;
     height: 60px;
