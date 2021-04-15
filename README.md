@@ -1,3 +1,3 @@
 # YaarMe
 
-## Front-end tasks for the internship @ YaarMe.
+## Front-end tasks during the internship @ YaarMe.
